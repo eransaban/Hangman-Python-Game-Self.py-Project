@@ -226,7 +226,7 @@ def reset_game():
 	
 	
 def start_game():
-    """ This function will start the game and print logo and number of trues."
+    """ This function will start the game and print logo and number of tries."
     :param num_of_tries: a varible that represent the status of the player and hoe many tries are left.
     :type num_of_tries: int
     :return: logo of game
@@ -310,7 +310,7 @@ def main():
 
 
     while win != True:    #loop to check til var become true and stop
-        if num_of_tries == 7:  # you this var get to 7, game over
+        if num_of_tries == 7:  # when this var get to 7, game over
             lose() # print lose logo
             again = input("Do You Want To play Again ?(type yes or no):") #ask if you want to play again
             if again == "yes":   # type yes to restart the game
